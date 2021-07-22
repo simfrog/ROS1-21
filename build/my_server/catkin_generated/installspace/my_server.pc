@@ -1,0 +1,8 @@
+prefix=/home/sumin/catkin_ws/install
+
+Name: my_server
+Description: Description of my_server
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: roscpp

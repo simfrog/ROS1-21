@@ -1,0 +1,3 @@
+<launch>
+    <node pkg="publishvel" name="publishvel" type="publishvel" output="screen"> </node>
+</launch>

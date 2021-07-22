@@ -1,0 +1,8 @@
+prefix=/home/sumin/catkin_ws/devel
+
+Name: random_turtlesim_controller
+Description: Description of random_turtlesim_controller
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: roscpp random_gen_x

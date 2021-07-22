@@ -1,0 +1,14 @@
+obstacle_range: 3.0 # 장애물이라고 인식하는 부분의 크기 (costmap에서 그라데이션의 두께)
+raytrace_range: 3.5
+
+# 로봇을 감싸는 틀 (로봇의 충돌 부피 계산을 위해 사용하는 정보)
+footprint: [[-0.105, -0.105], [-0.105, 0.105], [0.041, 0.105], [0.041, -0.105]]
+#robot_radius: 0.105
+
+inflation_radius: 1.0
+cost_scaling_factor: 3.0
+
+map_type: costmap
+observation_sources: scan
+scan: {sensor_frame: lrf_link, data_type: LaserScan, topic: /front/scan, marking: true, clearing: true}
+# scan: {sensor_frame: base_scan, data_type: LaserScan, topic: /front/scan, marking: true, clearing: true}

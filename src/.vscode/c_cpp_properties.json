@@ -1,0 +1,53 @@
+{
+    "configurations": [
+        {
+            "browse": {
+                "databaseFilename": "",
+                "limitSymbolsToIncludedHeaders": true
+            },
+            "includePath": [
+                "/home/sumin/catkin_ws/devel/include",
+                "/opt/ros/melodic/include",
+                "/home/sumin/catkin_ws/src/calc_base2end_tf/include",
+                "/home/sumin/catkin_ws/src/fourth_robot_pkg/fourth_robot_driver/include",
+                "/home/sumin/catkin_ws/src/mobile_robot/include",
+                "/home/sumin/catkin_ws/src/my_client/include",
+                "/home/sumin/catkin_ws/src/my_client_class/include",
+                "/home/sumin/catkin_ws/src/my_publisher/include",
+                "/home/sumin/catkin_ws/src/my_publisher_class/include",
+                "/home/sumin/catkin_ws/src/my_server/include",
+                "/home/sumin/catkin_ws/src/my_server_class/include",
+                "/home/sumin/catkin_ws/src/my_subscriber/include",
+                "/home/sumin/catkin_ws/src/my_subscriber_class/include",
+                "/home/sumin/catkin_ws/src/my_tf_practice/include",
+                "/home/sumin/catkin_ws/src/my_turtlesim_controller/include",
+                "/home/sumin/catkin_ws/src/open_manipulator/open_manipulator_control_gui/include",
+                "/home/sumin/catkin_ws/src/open_manipulator/open_manipulator_controller/include",
+                "/home/sumin/catkin_ws/src/open_manipulator/open_manipulator_libs/include",
+                "/home/sumin/catkin_ws/src/open_manipulator/open_manipulator_teleop/include",
+                "/home/sumin/catkin_ws/src/prac_publisher/include",
+                "/home/sumin/catkin_ws/src/prac_subscriber/include",
+                "/home/sumin/catkin_ws/src/pub_department_number/include",
+                "/home/sumin/catkin_ws/src/pub_major/include",
+                "/home/sumin/catkin_ws/src/pub_name/include",
+                "/home/sumin/catkin_ws/src/pub_subject/include",
+                "/home/sumin/catkin_ws/src/turtleCtrl/include",
+                "/home/sumin/catkin_ws/src/random_gen_x/include",
+                "/home/sumin/catkin_ws/src/random_gen_y/include",
+                "/home/sumin/catkin_ws/src/random_gen_yaw/include",
+                "/home/sumin/catkin_ws/src/random_turtlesim_controller/include",
+                "/home/sumin/catkin_ws/src/string_merger/include",
+                "/home/sumin/catkin_ws/src/turtlebot3_simulations/turtlebot3_fake/include",
+                "/home/sumin/catkin_ws/src/turtlebot3_simulations/turtlebot3_gazebo/include",
+                "/home/sumin/catkin_ws/src/universal_robot/ur_kinematics/include",
+                "/usr/include"
+            ],
+            "name": "Linux",
+            "intelliSenseMode": "linux-gcc-x64",
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "gnu11",
+            "cppStandard": "gnu++14"
+        }
+    ],
+    "version": 4
+}

@@ -1,0 +1,8 @@
+prefix=/home/sumin/catkin_ws/install
+
+Name: prac_publisher
+Description: Description of prac_publisher
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: roscpp

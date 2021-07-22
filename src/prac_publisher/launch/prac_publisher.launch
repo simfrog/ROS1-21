@@ -1,0 +1,3 @@
+<launch>
+    <node pkg="prac_publisher" name="prac_publisher" type="prac_publisher" output="screen"> </node>
+</launch>

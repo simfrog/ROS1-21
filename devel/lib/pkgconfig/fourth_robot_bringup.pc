@@ -1,0 +1,8 @@
+prefix=/home/sumin/catkin_ws/devel
+
+Name: fourth_robot_bringup
+Description: Description of fourth_robot_bringup
+Version: 1.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

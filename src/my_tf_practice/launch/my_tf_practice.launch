@@ -1,0 +1,22 @@
+<launch>
+    <node pkg="tf" type="static_transform_publisher" name="link1_broadcaster"
+    args="0 0 1 1.0472 0 1.5708 parent_link child_link 100" />
+</launch>
+<!-- 1.0472 : joint_angle -->
+<!-- 1 : joint_distance -->
+<!-- 0 : link_length -->
+<!-- 1.5708 : link_twist_anlge -->
+
+<!-- <launch>
+    <node pkg="my_tf_practice" name="my_tf_practice" type="my_tf_practice" output="screen"> </node>
+</launch> -->
+
+<!-- args = { x(m), y(m), z(m), yaw(radian), pitch(radian), roll(radian) }-->
+
+<!-- radian 1.0472 : 60 degree -->
+<!-- radian 1.5708 : 90 degree -->
+
+<!-- Rx(roll), Ry(pitch), Rz(yaw) -->
+
+<!-- R : Rz * Ry * Rx (뒤에 있는게 가장 먼저 수행 쓸 때만 이처럼 씀) -->
+<!-- roll pitch yaw sequence * -->

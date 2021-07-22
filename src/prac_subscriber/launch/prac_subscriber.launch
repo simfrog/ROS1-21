@@ -1,0 +1,3 @@
+<launch>
+    <node pkg="prac_subscriber" name="prac_subscriber" type="prac_subscriber" output="screen"> </node>
+</launch>
